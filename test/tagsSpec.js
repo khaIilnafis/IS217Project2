@@ -11,5 +11,4 @@ describe("Tags", function(){
 			expect(results).to.have.a.property("hello", "world");
 		});
 	});
-
 });
