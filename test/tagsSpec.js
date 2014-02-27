@@ -35,13 +35,13 @@ describe("Tags", function(){
 
 		it("should accept short formed tags", function(){
 			var args = ["-sd=4", "-h"];
-			var replacements ={
+			var replacements = {
 				s: "searchContents",
 				d: "depth",
 				h: "hello"
 			};
 
-			var results = tags.parse(args,{},replacements);
+			var results = tags.parse(args, {}, replacements);
 
 			var expected = {
 				searchContents: true,
